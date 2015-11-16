@@ -11,10 +11,9 @@ Créée en octobre 2015 par des étudiants de l’IESA.
 * Tristan
  * Développeur web.
  * **CEO**
- * Jongleur de couteaux pendant ses heures solitaires.
 * Eric
  * Développeur Web et bidouilleur technique.
  * **Directeur technique**
 
 ### Le produit
-*Section à compléter*
+Les produits à présenter sont une série d’objets connectés ayants pour objectifs d’aider à la santé et la sécurisation de l’enfant.
