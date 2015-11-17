@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+  <head >
+    <script data-main="www/libs/weioLibs" src="www/libs/require.js"></script>
+    <title>My first Web app</title>
+  </head>
+
+  <body>
+
+    <p>Hello world!</p>
+    <p id="phrase" onclick="lights()">test</p>
+  <script> 
+
+      function onWeioReady() {
+       console.log("DOM is loaded, websocket is opened");
+      }
+      
+      var light = false;
+
+        // This function is called when DOM is loaded and web socket opened
+        function onWeioReady() {
+            setInterval(lights, 500);
+        }
+
+        function lights() {
+        
+            if (light) {
+                // write LOW on pins
+                digitalWrite(18, LOW);
+                //digitalWrite(19, LOW);
+                //digitalWrite(20, LOW);
+                // toggle light variable
+                light = !light;
+            } else {
+                // write HIGH on pins
+                digitalWrite(18, HIGH);
+                //digitalWrite(19, HIGH);
+                //digitalWrite(20, HIGH);
+                // toggle light variable
+                light = !light;
+            }
+        }
+
+
+  </script>
+  </body>
+</html>

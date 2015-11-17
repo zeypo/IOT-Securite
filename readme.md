@@ -17,3 +17,6 @@ Créée en octobre 2015 par des étudiants de l’IESA.
 
 ### Le produit
 Les produits à présenter sont une série d’objets connectés ayants pour objectifs d’aider à la santé et la sécurisation de l’enfant.
+
+### Ressources
+Trello : [objet-connecté](https://trello.com/b/zvEl40iW/objet-connecte).
